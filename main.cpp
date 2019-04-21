@@ -16,5 +16,6 @@ int main() {
 	cpu->run();
 
 	printf("done\n");
+	delete cpu;
 	return 0;
 }
